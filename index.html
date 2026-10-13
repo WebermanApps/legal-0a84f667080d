@@ -44,8 +44,34 @@ footer{text-align:center;padding:12px 0 40px;font-size:14px;color:var(--mut)}
 footer a{display:inline-flex;align-items:center;min-height:44px;text-decoration:none;border-bottom:1px solid rgba(10,10,10,.3)}
 footer a:hover{color:var(--fg);border-color:var(--fg)}
 svg{flex:none}
+
+:root{--lagoon:#05668D;--saffron:#D4A017;--lines:#E5E0D8}
+.navlink{letter-spacing:.18em;font-size:12px;color:var(--lagoon)}
+.rows{list-style:none;margin:10px 0 0;padding:0;counter-reset:r}
+.rows li{display:flex;gap:12px;align-items:flex-start;padding:10px 0;border-top:1px solid var(--lines)}
+.rows li:first-child{border-top:0}
+.rows .num{flex:none;width:28px;height:28px;border-radius:50%;background:#fbf3dc;color:#7a5b00;font:700 15px Khand,sans-serif;display:flex;align-items:center;justify-content:center;border:1.5px solid var(--saffron)}
+.rows .ic{flex:none;margin-top:3px;color:var(--saffron)}
+.report{border-left-color:var(--saffron)}
+#needsmax{border:0;border-radius:0;overflow:hidden}
+#needsmax summary{background:#fbf3dc;border-left:5px solid var(--saffron);border-top:4px solid var(--saffron);letter-spacing:.14em;text-transform:uppercase;font-size:14px}
+#needsmax .body{background:#fffdf7;border:1px solid var(--lines);border-top:0}
+.card{border-radius:0;border-left:6px solid var(--edge,#737373);padding:0;gap:0}
+.card .band{background:var(--band,#f5f5f5);padding:10px 18px}
+.card .in{padding:16px 22px 20px;display:flex;flex-direction:column;gap:10px}
+@media(min-width:700px){.grid{grid-template-columns:1fr 1fr;gap:20px}}
+.txtlinks{display:flex;gap:18px;flex-wrap:wrap;font-size:14px}
+.txtlinks a{min-height:44px;display:inline-flex;align-items:center;text-decoration:none;border-bottom:1px solid rgba(5,102,141,.35);color:var(--lagoon)}
+details.ptr{margin:24px 0 0;border:1px solid var(--lines);border-radius:12px;background:#fff}
+details.ptr summary{min-height:44px;display:flex;align-items:center;padding:0 16px;cursor:pointer;letter-spacing:.14em;text-transform:uppercase;font-size:12px;font-weight:600;color:var(--lagoon)}
+details.ptr ol{margin:0;padding:4px 16px 14px 40px}details.ptr li::marker{color:var(--lagoon);font-weight:700}
+.tabbar{display:none}
+@media(max-width:699px){.tabbar{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:5;background:#fff;border-top:1px solid var(--lines);padding-bottom:env(safe-area-inset-bottom)}
+.tabbar a{flex:1;min-height:56px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;text-decoration:none;font-size:11px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:#525252}
+.tabbar a[aria-current]{color:var(--lagoon);box-shadow:inset 0 3px 0 var(--lagoon)}
+body{padding-bottom:calc(64px + env(safe-area-inset-bottom))}}
 </style></head><body><div class="wrap">
-<div class="top"><a class="navlink mw-hover" href="https://webermanapps.github.io/a-2sipntzsp385oxy3/"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>Apps Home</a><span class="lbl" id="stamp">Updated Oct 13, 2026 · 20:50 ICT</span></div>
+<div class="top"><a class="navlink mw-hover" href="https://webermanapps.github.io/a-2sipntzsp385oxy3/"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>Apps Home</a><span class="lbl" id="stamp">Updated Oct 13, 2026 · 23:15 ICT</span></div>
 <div class="row" style="gap:12px;margin-top:6px"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#171717" stroke-width="1.6" aria-hidden="true"><path d="M12 3v18M5 21h14M4 7h16M7 7l-3 7a3 3 0 006 0zM17 7l-3 7a3 3 0 006 0z"/><circle cx="12" cy="4" r="1" fill="#b54708" stroke="none"/></svg><div><h1>Legal</h1><div class="lbl">Command Center · Max Weberman</div></div></div>
 
 <section class="report" id="report" aria-live="polite"></section>
@@ -58,9 +84,12 @@ svg{flex:none}
 <h2>Open Legal Matters</h2>
 <div class="grid" id="matters"></div>
 
+<details class="ptr"><summary>Pull To Refresh</summary><ol><li>Scroll to the very top of the page.</li><li>Pull down until the cue appears.</li><li>Let go and the page reloads with the latest data.</li></ol></details>
 <div class="share"><button class="btn mw-hover" id="shareBtn"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12v7a1 1 0 001 1h14a1 1 0 001-1v-7M16 6l-4-4-4 4M12 2v14"/></svg>Share</button><span id="copied" hidden>Copied</span></div>
+<div class="txtlinks" style="justify-content:center"><a class="mw-hover" href="https://webermanapps.github.io/a-2sipntzsp385oxy3/">Apps Home</a><a class="mw-hover" href="#needsmax">Needs Max</a></div>
 <footer><a class="mw-hover" href="https://maxweberman.com">Built by Max Weberman</a></footer>
 </div>
+<nav class="tabbar" aria-label="Apps"><a href="https://webermanapps.github.io/a-2sipntzsp385oxy3/"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l9-7 9 7v9a1 1 0 01-1 1h-5v-6H9v6H4a1 1 0 01-1-1z"/></svg>Apps Home</a><a href="#" aria-current="page"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v18M5 21h14M4 7h16M7 7l-3 7a3 3 0 006 0zM17 7l-3 7a3 3 0 006 0z"/></svg>Legal</a></nav>
 <script>
 const M=[
 {t:"Smart Upkeep LLC Filing",s:"In Progress",c:"#067647",o:"Max / Legal",d:"Max is filing the Articles of Organization (CSCL/CD-700) for Smart Upkeep LLC on the MiBusiness Registry with 24-hour expedite. After approval: get the EIN, sign the Operating Agreement, and open the LLC bank account.",n:"Next: confirm the filing went through, then the EIN.",src:"legal/upkeep-launch/upkeep-legal-launch-plan.md (Entity; Step 1) · smartkeep/legal/llc-filing/ · Grok Bot, Oct 13"},
@@ -72,13 +101,13 @@ const M=[
 {t:"Smart Upkeep Trademark Search",s:"Needed",c:"#b54708",o:"UpKeep / Branding",d:"The name check found a possible conflict for 'Smart Upkeep' (a Florida corporation and a home-records app). SmartKeep is riskier because both of its domains have live sites. A trademark search is needed before Max commits to a name.",n:"Next: run the trademark search before the name is locked.",src:"team-feed.md Oct 11 22:22 (Branding agent) · Oct 13 14:44 (UpKeep Lawyer/Trademark items)"},
 {t:"Platform Terms For Selling The Agent Dashboard Setup",s:"Drafting Questions",c:"#b54708",o:"Legal",d:"Research flagged that Max wants to sell his agent dashboard setup. Before any paid pilot, Max needs a written answer from the platform provider on which model the terms allow: the client owns the account, or the setup is built on the API. 10 draft questions are written; nothing has been sent.",n:"Next: Max reviews the draft questions, then decides who sends them.",src:"Grok Bot, Oct 13 · Research deck rd-3k3k8jcaqb (card: Stay Inside The Agent Platform Terms)"},
 {t:"Wickfield Lease Extension Amendment",s:"Missing Signed Copy",c:"#737373",o:"Prop",d:"There is no signed copy on file of the Wickfield lease extension amendment (to about 2027). The lease copies are filed under prop/wickfield/lease/.",n:"Next: Max uploads the signed amendment if he has it.",src:"open-tasks.md (Prop: Wickfield lease extension amendment, from Portfolio Oct 13)"}];
-document.getElementById('matters').innerHTML=M.map(m=>`<article class="card mw-hover"><div class="row"><span class="pill"><i style="background:${m.c}"></i>${m.s}</span><span class="pill">${m.o}</span></div><h3>${m.t}</h3><p style="margin:0">${m.d}</p><p class="meta" style="margin:0">${m.n}</p><div class="src">Source: ${m.src}</div></article>`).join('');
+document.querySelector('#needsmax+h2');document.getElementById('matters').innerHTML=M.map(m=>`<article class="card mw-hover" style="--edge:${m.c};--band:${m.c}14"><div class="band row"><span class="pill" style="background:#fff"><i style="background:${m.c}"></i>${m.s}</span><span class="pill" style="background:#fff">${m.o}</span></div><div class="in"><h3>${m.t}</h3><p style="margin:0">${m.d}</p><p class="meta" style="margin:0">${m.n}</p><div class="src">Source: ${m.src}</div></div></article>`).join('');
 const R={
-morning:{l:"Morning Report",i:'<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2"/>',b:["Wellnest name dispute: helping WellNest get the attorney follow-up out (needs Ding Ding's email address and the IG screenshot).","Tracking the Lenny agreement attorney review, the Smart Upkeep trademark search, the signed Wickfield amendment, and the platform-terms questions."]},
-evening:{l:"Evening Report",i:'<path d="M20 14.5A8 8 0 019.5 4a8 8 0 1010.5 10.5z"/>',b:["Today: built and published the Legal dashboard, seeded 4 matters, added it to Apps Home (AIR), and set up daily refresh briefs at 4:47 and 17:47 ICT.","Tomorrow: chase the Wellnest follow-up inputs (Ding Ding's email address and the IG screenshot), and start the new platform-terms matter."]}};
+morning:{l:"Morning Report",ri:['<path d="M12 3v18M5 21h14M4 7h16"/>','<path d="M9 11l3 3 8-8"/><path d="M20 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/>'],i:'<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2"/>',b:["Wellnest name dispute: helping WellNest get the attorney follow-up out (needs Ding Ding's email address and the IG screenshot).","Tracking the Lenny agreement attorney review, the Smart Upkeep trademark search, the signed Wickfield amendment, and the platform-terms questions."]},
+evening:{l:"Evening Report",ri:['<path d="M9 11l3 3 8-8"/><path d="M20 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/>','<path d="M5 12h14M13 6l6 6-6 6"/>'],i:'<path d="M20 14.5A8 8 0 019.5 4a8 8 0 1010.5 10.5z"/>',b:["Today: built and published the Legal dashboard, seeded 4 matters, added it to Apps Home (AIR), and set up daily refresh briefs at 4:47 and 17:47 ICT.","Tomorrow: chase the Wellnest follow-up inputs (Ding Ding's email address and the IG screenshot), and start the new platform-terms matter."]}};
 function ictHour(){return (new Date().getUTCHours()+7)%24}
 const h=ictHour(),k=(h>=18||h<5)?'evening':'morning',r=R[k];
-document.getElementById('report').innerHTML=`<div class="when"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#b54708" stroke-width="2">${r.i}</svg><span class="lbl" style="color:#0a0a0a">${r.l} · Oct 13, 2026</span></div><ul>${r.b.map(x=>`<li>${x}</li>`).join('')}</ul>`;
+document.getElementById('report').innerHTML=`<div class="when"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#b54708" stroke-width="2">${r.i}</svg><span class="lbl" style="color:#0a0a0a">${r.l} · Oct 13, 2026</span></div><ol class="rows">${r.b.map((x,i)=>`<li><span class="num">${i+1}</span><svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">${(r.ri||[])[i]||'<circle cx="12" cy="12" r="3"/>'}</svg><span>${x}</span></li>`).join('')}</ol>`;
 document.getElementById('shareBtn').onclick=async()=>{const d={title:'Legal Command Center',text:`Legal: ${M.length} open matters, 1 urgent.`,url:location.href};
 try{if(navigator.share){await navigator.share(d);return}}catch(e){return}
 try{await navigator.clipboard.writeText(d.url);const c=document.getElementById('copied');c.hidden=false;setTimeout(()=>c.hidden=true,2000)}catch(e){location.href='sms:?&body='+encodeURIComponent(d.text+' '+d.url)}};
