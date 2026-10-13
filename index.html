@@ -1,0 +1,78 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><meta name="robots" content="noindex">
+<title>Legal Command Center</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;600&family=Khand:wght@600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fbf8f2;--card:#fff;--fg:#0a0a0a;--pri:#171717;--mut:#6b6b6b;--bd:#e5e5e5;--red:#d92d20;--amb:#b54708;--grn:#067647;--ease:cubic-bezier(.2,.8,.2,1)}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:400 17px/1.5 Hind,system-ui,sans-serif;overflow-x:hidden}
+.wrap{max-width:1180px;margin:0 auto;padding:16px 20px 24px}
+@media(min-width:1800px){body{font-size:20px}.wrap{max-width:1500px;padding:3vh 5vw}}
+h1,h2,h3{font-family:Khand,sans-serif;font-weight:700;line-height:1.1;letter-spacing:-.01em;margin:0}
+h1{font-size:clamp(34px,5vw,60px)}h2{font-size:clamp(24px,2.6vw,34px);margin:28px 0 12px}h3{font-size:22px}
+a{color:inherit}
+.top{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.navlink{display:inline-flex;align-items:center;gap:6px;min-height:44px;padding:0 10px 0 0;text-decoration:none;text-transform:uppercase;letter-spacing:.1em;font-size:13px;font-weight:600}
+.lbl{text-transform:uppercase;letter-spacing:.1em;font-size:12px;color:var(--mut);font-weight:600}
+.mw-hover{transition:transform 180ms var(--ease),box-shadow 180ms var(--ease),background-color 180ms var(--ease)}
+.mw-hover:hover,.mw-hover:focus-visible{transform:translateY(-1px) scale(1.02);box-shadow:0 6px 18px rgba(10,10,10,.12)}
+.mw-hover:active{transform:scale(.98)}
+@media(prefers-reduced-motion:reduce){.mw-hover,.mw-hover:hover{transition:none;transform:none}}
+:focus-visible{outline:3px solid var(--pri);outline-offset:3px}
+.report{background:var(--card);border:1px solid var(--bd);border-left:4px solid var(--pri);border-radius:12px;padding:16px 18px;margin:14px 0}
+.report .when{display:flex;gap:8px;align-items:center}
+.report ul{margin:8px 0 0;padding-left:20px}
+details.urgent{background:var(--card);border:1px solid var(--bd);border-radius:12px;margin:12px 0}
+details.urgent summary{list-style:none;cursor:pointer;min-height:48px;display:flex;align-items:center;gap:10px;padding:0 16px;font-weight:600}
+details.urgent summary::-webkit-details-marker{display:none}
+.dot{width:10px;height:10px;border-radius:50%;background:var(--red);flex:none}
+.chev{margin-left:auto;transition:transform 180ms}details[open] .chev{transform:rotate(180deg)}
+details.urgent .body{padding:0 16px 14px;border-top:1px solid var(--bd)}
+.grid{display:grid;grid-template-columns:1fr;gap:14px}
+@media(min-width:900px){.grid{grid-template-columns:1fr 1fr}}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:18px;display:flex;flex-direction:column;gap:8px}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.pill{display:inline-flex;align-items:center;gap:6px;font-size:12px;text-transform:uppercase;letter-spacing:.08em;font-weight:600;border:1px solid var(--bd);border-radius:999px;padding:2px 10px}
+.pill i{width:8px;height:8px;border-radius:50%;display:inline-block}
+.src{font-size:13px;color:var(--mut);word-break:break-word}
+.meta{font-size:15px;color:var(--mut)}
+.share{display:flex;justify-content:center;margin:36px 0 8px}
+.btn{min-height:48px;padding:0 32px;background:transparent;border:2px solid var(--pri);border-radius:0;font:600 14px Hind,sans-serif;text-transform:uppercase;letter-spacing:.1em;color:var(--pri);cursor:pointer;display:inline-flex;align-items:center;gap:10px}
+.btn:hover{background:var(--pri);color:#fafafa}
+#copied{margin-left:10px;color:var(--grn);font-size:14px;align-self:center}
+footer{text-align:center;padding:12px 0 40px;font-size:14px;color:var(--mut)}
+footer a{display:inline-flex;align-items:center;min-height:44px;text-decoration:none;border-bottom:1px solid rgba(10,10,10,.3)}
+footer a:hover{color:var(--fg);border-color:var(--fg)}
+svg{flex:none}
+</style></head><body><div class="wrap">
+<div class="top"><a class="navlink mw-hover" href="https://webermanapps.github.io/a-2sipntzsp385oxy3/"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>Apps Home</a><span class="lbl" id="stamp">Updated Oct 13, 2026 · 18:05 ICT</span></div>
+<div class="row" style="gap:12px;margin-top:6px"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#171717" stroke-width="1.6" aria-hidden="true"><path d="M12 3v18M5 21h14M4 7h16M7 7l-3 7a3 3 0 006 0zM17 7l-3 7a3 3 0 006 0z"/><circle cx="12" cy="4" r="1" fill="#b54708" stroke="none"/></svg><div><h1>Legal</h1><div class="lbl">Command Center · Max Weberman</div></div></div>
+
+<section class="report" id="report" aria-live="polite"></section>
+
+<details class="urgent"><summary class="mw-hover"><span class="dot"></span><span id="ucount">1 Urgent</span><svg class="chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></summary>
+<div class="body"><p><strong>Wellnest attorney follow-up email.</strong> Grok Bot noted on Oct 13 that the email must go out today. Max still needs to supply Ding Ding's email address and the IG screenshot, then send it. WellNest owns this. Legal is tracking it.</p></div></details>
+
+<h2>Open Legal Matters</h2>
+<div class="grid" id="matters"></div>
+
+<div class="share"><button class="btn mw-hover" id="shareBtn"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12v7a1 1 0 001 1h14a1 1 0 001-1v-7M16 6l-4-4-4 4M12 2v14"/></svg>Share</button><span id="copied" hidden>Copied</span></div>
+<footer><a class="mw-hover" href="https://maxweberman.com">Built by Max Weberman</a></footer>
+</div>
+<script>
+const M=[
+{t:"Wellnest Name Dispute",s:"Waiting on Max",c:"#d92d20",o:"WellNest",d:"A competitor, The Cocoon, is renaming to \"Wellnest\". Max's Wellnest brand is registered but not open yet. The attorney email went to Ding Ding on Oct 2. The follow-up is drafted and needs Ding Ding's email address and the IG screenshot before Max sends it.",n:"Next: Max sends the follow-up today.",src:"open-tasks.md (agent lanes: wellnest P1; Wellnest section P2) · team-feed.md Oct 11 22:20, Oct 12 11:55, Oct 13 12:21 and 13:38"},
+{t:"Lenny Equity Agreement Review",s:"Before Signing",c:"#b54708",o:"Portfolio / Prop",d:"Before signing, an attorney must review the Lenny equity agreement for Mellow Wood against the Northpointe all-in-one loan documents. Max still has four open term-sheet questions: the sale/refi split, buyout, losses, and the due date.",n:"Next: Max answers the 4 questions (about 10 min), then the attorney reviews.",src:"open-tasks.md (Prop P1 Lenny agreement; Folio P0) · team-feed.md Oct 12 11:55 (Coach)"},
+{t:"Smart Upkeep Trademark Search",s:"Needed",c:"#b54708",o:"UpKeep / Branding",d:"The name check found a possible conflict for 'Smart Upkeep' (a Florida corporation and a home-records app). SmartKeep is riskier because both of its domains have live sites. A trademark search is needed before Max commits to a name.",n:"Next: run the trademark search before the name is locked.",src:"team-feed.md Oct 11 22:22 (Branding agent) · Oct 13 14:44 (UpKeep Lawyer/Trademark items)"},
+{t:"Wickfield Lease Extension Amendment",s:"Missing Signed Copy",c:"#737373",o:"Prop",d:"There is no signed copy on file of the Wickfield lease extension amendment (to about 2027). The lease copies are filed under prop/wickfield/lease/.",n:"Next: Max uploads the signed amendment if he has it.",src:"open-tasks.md (Prop: Wickfield lease extension amendment, from Portfolio Oct 13)"}];
+document.getElementById('matters').innerHTML=M.map(m=>`<article class="card mw-hover"><div class="row"><span class="pill"><i style="background:${m.c}"></i>${m.s}</span><span class="pill">${m.o}</span></div><h3>${m.t}</h3><p style="margin:0">${m.d}</p><p class="meta" style="margin:0">${m.n}</p><div class="src">Source: ${m.src}</div></article>`).join('');
+const R={
+morning:{l:"Morning Report",i:'<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2"/>',b:["Wellnest name dispute: helping WellNest get the attorney follow-up out (needs Ding Ding's email address and the IG screenshot).","Tracking the Lenny agreement attorney review, the Smart Upkeep trademark search, and the signed Wickfield amendment."]},
+evening:{l:"Evening Report",i:'<path d="M20 14.5A8 8 0 019.5 4a8 8 0 1010.5 10.5z"/>',b:["Today: set up the Legal dashboard and seeded 4 open matters from open-tasks.md and the team feed.","Tomorrow: confirm the Wellnest attorney follow-up went out, and watch for Max's answers on the Lenny term sheet."]}};
+function ictHour(){return (new Date().getUTCHours()+7)%24}
+const h=ictHour(),k=(h>=18||h<5)?'evening':'morning',r=R[k];
+document.getElementById('report').innerHTML=`<div class="when"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#b54708" stroke-width="2">${r.i}</svg><span class="lbl" style="color:#0a0a0a">${r.l} · Oct 13, 2026</span></div><ul>${r.b.map(x=>`<li>${x}</li>`).join('')}</ul>`;
+document.getElementById('shareBtn').onclick=async()=>{const d={title:'Legal Command Center',text:`Legal: ${M.length} open matters, 1 urgent.`,url:location.href};
+try{if(navigator.share){await navigator.share(d);return}}catch(e){return}
+try{await navigator.clipboard.writeText(d.url);const c=document.getElementById('copied');c.hidden=false;setTimeout(()=>c.hidden=true,2000)}catch(e){location.href='sms:?&body='+encodeURIComponent(d.text+' '+d.url)}};
+</script></body></html>
