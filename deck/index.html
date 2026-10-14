@@ -1,0 +1,80 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><meta name="robots" content="noindex">
+<title>Legal Deck</title>
+<link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;600&family=Khand:wght@600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#FDFBF6;--ink:#0a0a0a;--mut:#525252;--ln:#E5E0D8;--lagoon:#05668D;--saffron:#D4A017;--jungle:#0B6E4F}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.45 Hind,system-ui,sans-serif;overflow-x:hidden}
+.wrap{max-width:720px;margin:0 auto;padding:12px 18px 28px}
+h1,h2{font-family:Khand,sans-serif;font-weight:700;line-height:1.1;margin:0}
+h1{font-size:30px}h2{font-size:24px}
+.lbl{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--mut);font-weight:600}
+.bar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;justify-content:space-between}
+.btn{min-height:48px;padding:0 20px;border:2px solid #171717;background:#fff;border-radius:0;font:600 14px Hind,sans-serif;letter-spacing:.1em;text-transform:uppercase;cursor:pointer;color:#171717;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:8px;transition:transform .18s,box-shadow .18s}
+.btn:hover{transform:translateY(-1px) scale(1.02);box-shadow:0 6px 18px rgba(10,10,10,.12)}
+.btn.pri{background:#171717;color:#fafafa}.btn.big{width:100%;min-height:56px;font-size:16px}
+@media(prefers-reduced-motion:reduce){.btn{transition:none}.btn:hover{transform:none}}
+:focus-visible{outline:3px solid var(--lagoon);outline-offset:3px}
+.back{margin:8px 0 12px}
+.prog{height:6px;background:var(--ln);margin:10px 0}.prog i{display:block;height:100%;background:var(--lagoon)}
+.card{background:#fff;border:1px solid var(--ln);border-left:6px solid var(--saffron);padding:20px;margin-top:10px}
+.cat{display:inline-block;border:1px solid var(--ln);border-radius:999px;padding:2px 10px;font-size:12px;letter-spacing:.08em;text-transform:uppercase;font-weight:600}
+.q{font:700 24px/1.2 Khand,sans-serif;margin:12px 0 6px}
+.src{font-size:13px;color:var(--mut)}
+.opts{display:flex;flex-direction:column;gap:10px;margin-top:14px}
+.opt{min-height:52px;border:2px solid var(--ln);background:#fff;font:600 16px Hind,sans-serif;text-align:left;padding:10px 16px;cursor:pointer;border-radius:12px;transition:transform .18s,border-color .18s}
+.opt:hover{border-color:var(--lagoon);transform:scale(1.01)}.opt[aria-pressed=true]{border-color:var(--lagoon);background:#eaf4f8}
+.row2{display:flex;gap:16px;justify-content:space-between;margin-top:12px;flex-wrap:wrap}
+.link{background:none;border:0;min-height:44px;font:600 13px Hind,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--lagoon);cursor:pointer;padding:0}
+textarea{width:100%;min-height:80px;font:16px Hind,sans-serif;border:1px solid var(--ln);border-radius:10px;padding:10px;margin-top:8px}
+.msg{margin:10px 0;color:var(--jungle);font-weight:600;min-height:1em}
+.sum li{margin:4px 0}
+footer{text-align:center;padding:24px 0 30px;color:var(--mut);font-size:14px}footer a{color:inherit;min-height:44px;display:inline-flex;align-items:center}
+</style></head><body><div class="wrap">
+<div class="bar"><span class="lbl">Legal · Deck</span><button class="btn pri" id="submitTop" type="button">Submit</button></div>
+<a class="btn back" href="../#deck-launcher">&larr; Back to Deck Building</a>
+<h1 id="dname">Legal Deck</h1><div class="lbl" id="dmeta"></div>
+<div class="prog"><i id="pbar" style="width:0"></i></div>
+<div id="stage"></div><div class="msg" id="msg" role="status"></div>
+<div style="display:flex;flex-direction:column;gap:10px;margin-top:18px"><button class="btn big pri" id="submitBottom" type="button">Submit Answers So Far</button><a class="btn big" href="../#deck-launcher">Back to Deck Building</a><button class="btn big" id="share" type="button">Share</button></div>
+<footer><a href="https://maxweberman.com">Built by Max Weberman</a></footer>
+</div>
+<script src="submit.js"></script>
+<script>
+const P=new URLSearchParams(location.search),CATS=(P.get('cats')||'launch,tm,terms,privacy,techcam').split(','),NAME=P.get('name')||'Legal Deck';
+const KD='legal-deck-done',KA='legal-deck-ans:'+NAME;
+const get=(k,d)=>{try{return JSON.parse(localStorage.getItem(k))||d}catch(_){return d}},put=(k,v)=>localStorage.setItem(k,JSON.stringify(v));
+let D,deck=[],idx=0;
+function build(){const done=new Set(get(KD,[])),ans=get(KA,{});const pool=D.cards.filter(c=>!done.has(c.id));
+ const by=CATS.map(c=>pool.filter(x=>x.cat==c));const out=[];let i=0;
+ while(out.length<20&&by.some(a=>a.length)){const a=by[i%by.length];if(a.length)out.push(a.shift());i++}
+ if(out.length<20)pool.filter(c=>!out.includes(c)).slice(0,20-out.length).forEach(c=>out.push(c));
+ deck=out;idx=deck.findIndex(c=>!ans[c.id]);if(idx<0)idx=0;}
+function draw(){const ans=get(KA,{});const n=deck.filter(c=>ans[c.id]&&ans[c.id].a).length;
+ document.getElementById('dname').textContent=NAME;
+ document.getElementById('dmeta').textContent=n+' of '+deck.length+' answered · '+[...new Set(deck.map(c=>D.categories[c.cat]))].join(', ');
+ document.getElementById('pbar').style.width=(deck.length?n/deck.length*100:0)+'%';
+ const st=document.getElementById('stage');
+ if(!deck.length){st.innerHTML='<div class="card"><p>No open decisions left. Nice work.</p></div>';return}
+ const c=deck[idx],a=ans[c.id]||{};
+ st.innerHTML=`<div class="card"><div class="bar"><span class="cat">${D.categories[c.cat]}</span><span class="lbl">${idx+1} / ${deck.length}</span></div><div class="q">${c.q}</div><div class="src">Source: ${c.src}</div>
+ <div class="opts">${c.opts.map((o,i)=>`<button class="opt" type="button" data-i="${i}" aria-pressed="${a.a===o}">${o}</button>`).join('')}</div>
+ <div class="row2"><button class="link" id="prev" type="button">Previous</button><button class="link" id="noteBtn" type="button">${a.note?'Edit Note':'Add Note'}</button><button class="link" id="skip" type="button">Skip</button></div>
+ <div id="noteBox" ${a.note?'':'hidden'}><textarea id="note" placeholder="Optional note for Legal">${a.note||''}</textarea></div></div>`;
+ st.querySelectorAll('.opt').forEach(b=>b.onclick=()=>{const A=get(KA,{});A[c.id]={...(A[c.id]||{}),a:c.opts[b.dataset.i],t:new Date().toISOString()};put(KA,A);next()});
+ document.getElementById('skip').onclick=next;document.getElementById('prev').onclick=()=>{idx=(idx-1+deck.length)%deck.length;draw()};
+ document.getElementById('noteBtn').onclick=()=>{document.getElementById('noteBox').hidden=false;document.getElementById('note').focus()};
+ document.getElementById('note').oninput=e=>{const A=get(KA,{});A[c.id]={...(A[c.id]||{}),note:e.target.value};put(KA,A)};}
+function next(){const ans=get(KA,{});for(let k=1;k<=deck.length;k++){const j=(idx+k)%deck.length;if(!(ans[deck[j].id]&&ans[deck[j].id].a)){idx=j;return draw()}}idx=(idx+1)%deck.length;draw()}
+async function submit(){const A=get(KA,{}),msg=document.getElementById('msg');
+ const answers=deck.filter(c=>A[c.id]&&(A[c.id].a||A[c.id].note)).map(c=>({id:c.id,category:D.categories[c.cat],question:c.q,answer:A[c.id].a||null,note:A[c.id].note||'',source:c.src}));
+ const unanswered=deck.filter(c=>!(A[c.id]&&A[c.id].a)).map(c=>c.id);
+ if(!answers.length){msg.textContent='Answer or note at least one card first.';return}
+ msg.textContent='Sending...';
+ const ok=await MWSubmit.send({agent:'legal',app:'legal-decks',deck:NAME,results:{answers,unanswered,partial:unanswered.length>0,total:deck.length,categories:CATS},notes:answers.filter(a=>a.note).map(a=>a.id+': '+a.note).join('\n'),partial:unanswered.length>0,answered:answers.length,total:deck.length,unanswered});
+ if(!ok){msg.textContent=MWSubmit.blocked?'Password needed. Nothing was sent.':'Not sent yet. Saved on this device and will retry.';return}
+ const done=new Set(get(KD,[]));answers.forEach(a=>done.add(a.id));put(KD,[...done]);localStorage.removeItem(KA);
+ msg.textContent='Sent. '+answers.length+' answered cards removed; the deck is refilled from the remaining decisions.';build();draw();window.scrollTo(0,0)}
+document.getElementById('submitTop').onclick=submit;document.getElementById('submitBottom').onclick=submit;
+document.getElementById('share').onclick=async()=>{const u=location.href;try{if(navigator.share)return await navigator.share({title:NAME,url:u})}catch(_){return}try{await navigator.clipboard.writeText(u);document.getElementById('msg').textContent='Link copied.'}catch(_){}};
+fetch('cards.json?'+Date.now()).then(r=>r.json()).then(j=>{D=j;build();draw()});
+</script></body></html>

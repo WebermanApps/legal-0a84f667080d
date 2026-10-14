@@ -1,0 +1,9 @@
+{"agent":"legal",
+"categories":[
+ {"id":"launch","label":"Launch & Entity","blurb":"LLC, licensing, beta date, Operating Agreement"},
+ {"id":"tm","label":"Trademark & IP","blurb":"Name search, backup names, IP ownership, attorney"},
+ {"id":"terms","label":"Member Terms & Offers","blurb":"Auto-renew, refunds, referrals, tiers"},
+ {"id":"privacy","label":"Privacy & Data","blurb":"Breach notice, retention, insurance, AI services"},
+ {"id":"techcam","label":"Tech Cam","blurb":"Glasses recording, consent, retention, pilot"}],
+"unfinished":[],
+"ready":{"name":"Smart Upkeep Launch Calls","url":"deck/?cats=launch,tm,terms,privacy,techcam&name=Smart%20Upkeep%20Launch%20Calls","total":20,"categories":["Launch & Entity","Trademark & IP","Member Terms & Offers","Privacy & Data","Tech Cam"]}}
