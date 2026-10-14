@@ -1,0 +1,38 @@
+{
+ "agent": "legal",
+ "updated": "2026-10-14T19:40+07:00",
+ "decks": [
+  {
+   "id": "legal-launch-tm",
+   "name": "Launch & Trademark Deck",
+   "url": "deck/?cats=launch,tm&name=Launch%20%26%20Trademark%20Deck",
+   "total": 20,
+   "topic": "launch,tm",
+   "blurb": "LLC, beta date, name risk, IP ownership"
+  },
+  {
+   "id": "legal-terms",
+   "name": "Member Terms Deck",
+   "url": "deck/?cats=terms,launch&name=Member%20Terms%20Deck",
+   "total": 20,
+   "topic": "terms,launch",
+   "blurb": "Auto-renew, refunds, referrals, tiers"
+  },
+  {
+   "id": "legal-privacy-cam",
+   "name": "Privacy & Tech Cam Deck",
+   "url": "deck/?cats=privacy,techcam&name=Privacy%20%26%20Tech%20Cam%20Deck",
+   "total": 20,
+   "topic": "privacy,techcam",
+   "blurb": "Breach notice, retention, glasses consent"
+  },
+  {
+   "id": "legal-launch-calls",
+   "name": "Smart Upkeep Launch Calls",
+   "url": "deck/?cats=launch,tm,terms,privacy,techcam&name=Smart%20Upkeep%20Launch%20Calls",
+   "total": 20,
+   "topic": "launch,tm,terms,privacy,techcam",
+   "blurb": "A mix of every open legal call"
+  }
+ ]
+}
