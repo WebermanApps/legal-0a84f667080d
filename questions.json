@@ -1,0 +1,309 @@
+[
+ {
+  "id": "lq00",
+  "g": "Wellnest",
+  "q": "Wellnest attorney follow-up: send Ding Ding's email address and the IG screenshot so it can go out",
+  "u": "Urgent",
+  "due": "Overdue 1 day"
+ },
+ {
+  "id": "lq01",
+  "g": "Trademark, IP And Member Data",
+  "q": "Attorney: engage a Michigan attorney (trademark plus privacy) and a cross-border CPA, and set the budget (TM D11)",
+  "u": "Open"
+ },
+ {
+  "id": "lq02",
+  "g": "Trademark, IP And Member Data",
+  "q": "Paid search: approve a comprehensive search and attorney opinion (about $1,000\u2013$2,500), and hold the wrap, signs and print until it's back (TM D1)",
+  "u": "Soon"
+ },
+ {
+  "id": "lq03",
+  "g": "Trademark, IP And Member Data",
+  "q": "Backup name: pick 2\u20133 candidates now for a knockout check (TM D2)",
+  "u": "Open"
+ },
+ {
+  "id": "lq04",
+  "g": "Trademark, IP And Member Data",
+  "q": "smartupkeep.com: make an anonymous broker offer before it renews Dec 15, once the name is decided (TM D3)",
+  "u": "Open"
+ },
+ {
+  "id": "lq05",
+  "g": "Trademark, IP And Member Data",
+  "q": "IP Option C: brand, content and member data in the US LLC; code in the Thai company under license, with a fallback license and escrow (TM D4)",
+  "u": "Open"
+ },
+ {
+  "id": "lq06",
+  "g": "Trademark, IP And Member Data",
+  "q": "Bridge period: assign existing code to the US LLC now, or to the Thai company at formation (CPA decides) (TM D5)",
+  "u": "Open"
+ },
+ {
+  "id": "lq07",
+  "g": "Trademark, IP And Member Data",
+  "q": "Contractor non-solicit: 12 months, Wayne/Oakland/Macomb, members served only (TM D6)",
+  "u": "Open"
+ },
+ {
+  "id": "lq08",
+  "g": "Trademark, IP And Member Data",
+  "q": "Terms of use: no arbitration or class waiver (draft default), or add consumer arbitration (TM D7)",
+  "u": "Open"
+ },
+ {
+  "id": "lq09",
+  "g": "Trademark, IP And Member Data",
+  "q": "Voluntary breach notice for door codes, photos and away dates beyond MCL 445.72 (TM D8)",
+  "u": "Open"
+ },
+ {
+  "id": "lq10",
+  "g": "Trademark, IP And Member Data",
+  "q": "Retention: leads 12 months; recordings, Tech Cam and GPS 90 days; contracts term + 7 years (TM D9)",
+  "u": "Open"
+ },
+ {
+  "id": "lq11",
+  "g": "Trademark, IP And Member Data",
+  "q": "Cyber and E&O insurance: budget and timing, before storing member data or marketing \"Warranty Check\" (TM D10)",
+  "u": "Soon"
+ },
+ {
+  "id": "lq12",
+  "g": "Entity And Licensing",
+  "q": "LLC: who contracts with members and does the work (own staff, Weberman Construction, subs), and when the first W-2 tech starts (Launch Q1)",
+  "u": "Open"
+ },
+ {
+  "id": "lq13",
+  "g": "Entity And Licensing",
+  "q": "License: is Weberman Construction's builder license active with you as qualifier, and should the LLC get its own (Launch Q2)",
+  "u": "Open"
+ },
+ {
+  "id": "lq14",
+  "g": "Entity And Licensing",
+  "q": "Resident agent: residency and agent identity confirmed Oct 13 (Max still MI resident; agent Max at Suite 210); open piece is who physically accepts papers there while you're in Bangkok (Launch Q6)",
+  "u": "Open"
+ },
+ {
+  "id": "lq15",
+  "g": "Entity And Licensing",
+  "q": "Operating Agreement: capital contribution, successor or designee, and the Thai company's legal name and fee terms (Launch Q10)",
+  "u": "Open"
+ },
+ {
+  "id": "lq16",
+  "g": "Entity And Licensing",
+  "q": "Beta date: is the free in-home beta still Oct 26, which needs the LLC, insurance and licensing ready (Launch Q7)",
+  "u": "Soon"
+ },
+ {
+  "id": "lq17",
+  "g": "Membership Terms And Billing",
+  "q": "Auto-renew yes or no, and what a 2-year plan renews into (Offer D1, Launch Q3)",
+  "u": "Open"
+ },
+ {
+  "id": "lq18",
+  "g": "Membership Terms And Billing",
+  "q": "Billing: true monthly option, or Annual, Quarterly and 2-Year only (Offer D2, Launch Q3)",
+  "u": "Open"
+ },
+ {
+  "id": "lq19",
+  "g": "Membership Terms And Billing",
+  "q": "Refund method: pure pro-rata, or pro-rata with a completed-services true-up (Offer D3)",
+  "u": "Open"
+ },
+ {
+  "id": "lq20",
+  "g": "Membership Terms And Billing",
+  "q": "Partial months: count the cancel month as used, or prorate by day (Offer D4)",
+  "u": "Open"
+ },
+ {
+  "id": "lq21",
+  "g": "Membership Terms And Billing",
+  "q": "Referrals: keep the complete-the-term condition or credit right away, and cap them per year (Offer D5)",
+  "u": "Open"
+ },
+ {
+  "id": "lq22",
+  "g": "Membership Terms And Billing",
+  "q": "Complete plan 10% pay-annually discount: keep or drop (Offer D6)",
+  "u": "Open"
+ },
+ {
+  "id": "lq23",
+  "g": "Membership Terms And Billing",
+  "q": "Refund window after an auto-renewal charge: 30 days with a full pro-rata refund (Offer D7)",
+  "u": "Open"
+ },
+ {
+  "id": "lq24",
+  "g": "Membership Terms And Billing",
+  "q": "Home sale: refund the seller, transfer to the buyer, or both (Offer D8)",
+  "u": "Open"
+ },
+ {
+  "id": "lq25",
+  "g": "Membership Terms And Billing",
+  "q": "Pause policy: does it extend the term, and how does it affect earned free months (Offer D9, Launch Q3)",
+  "u": "Open"
+ },
+ {
+  "id": "lq26",
+  "g": "Membership Terms And Billing",
+  "q": "Tier names: confirm Essentials, Plus and Complete everywhere (Offer D10)",
+  "u": "Open"
+ },
+ {
+  "id": "lq27",
+  "g": "Membership Terms And Billing",
+  "q": "Sign-ups: online only, or in person and by phone too (which triggers 3-day cancel paperwork) (Launch Q4)",
+  "u": "Open"
+ },
+ {
+  "id": "lq28",
+  "g": "Membership Terms And Billing",
+  "q": "Goods: sell filters, bulbs and hardware separately, or include materials (Launch Q8)",
+  "u": "Open"
+ },
+ {
+  "id": "lq29",
+  "g": "Brand And Trademark",
+  "q": "Commit to 'Smart Upkeep' and pay for a full clearance search; use 'SmartKeep' too; whether the US LLC or the Thai company owns the name (Launch Q5)",
+  "u": "Open"
+ },
+ {
+  "id": "lq30",
+  "g": "Tech Cam And Privacy",
+  "q": "Tech Cam recording and outside AI services for label scanning and the phone assistant: go or no-go (Launch Q9)",
+  "u": "Open"
+ },
+ {
+  "id": "lq31",
+  "g": "Tech Cam And Privacy",
+  "q": "Video: photos only first, with clips only for specific tasks (recommended) (Tech Cam D1)",
+  "u": "Open"
+ },
+ {
+  "id": "lq32",
+  "g": "Tech Cam And Privacy",
+  "q": "Meta AI off on visits, with labels read through our own scan (recommended) (Tech Cam D2)",
+  "u": "Open"
+ },
+ {
+  "id": "lq33",
+  "g": "Tech Cam And Privacy",
+  "q": "Live remote help: drop it, or allow with per-visit consent and an empty room (Tech Cam D3)",
+  "u": "Open"
+ },
+ {
+  "id": "lq34",
+  "g": "Tech Cam And Privacy",
+  "q": "Retention: 7 days raw, 90 days after membership ends, legal hold for claims, or your numbers (Tech Cam D4)",
+  "u": "Open"
+ },
+ {
+  "id": "lq35",
+  "g": "Tech Cam And Privacy",
+  "q": "Who reviews footage internally, and how often (Tech Cam D5)",
+  "u": "Open"
+ },
+ {
+  "id": "lq36",
+  "g": "Tech Cam And Privacy",
+  "q": "Adult (18+) home for Tech Cam visits only, or for all visits (Tech Cam D6)",
+  "u": "Open"
+ },
+ {
+  "id": "lq37",
+  "g": "Tech Cam And Privacy",
+  "q": "Marketing in the beta: run it at all (recommended no for now) (Tech Cam D7)",
+  "u": "Soon"
+ },
+ {
+  "id": "lq38",
+  "g": "Tech Cam And Privacy",
+  "q": "Pilot: your own test, then 3-5 consenting homes with no children or tenants, then review (Tech Cam D8)",
+  "u": "Open"
+ },
+ {
+  "id": "lq39",
+  "g": "Tech Cam And Privacy",
+  "q": "Company phones and accounts for the glasses (Tech Cam D9)",
+  "u": "Open"
+ },
+ {
+  "id": "lq40",
+  "g": "Tech Cam And Privacy",
+  "q": "Safety eyewear: frame model, and swap to safety glasses for rated tasks (Tech Cam D10)",
+  "u": "Open"
+ },
+ {
+  "id": "lq41",
+  "g": "Platform Terms (Review Before Sending)",
+  "q": "Model A: can you charge clients for setup when each client owns their own account",
+  "u": "Open"
+ },
+ {
+  "id": "lq42",
+  "g": "Platform Terms (Review Before Sending)",
+  "q": "Model B: can you build on the API and sell it as your own service, and under which plan",
+  "u": "Open"
+ },
+ {
+  "id": "lq43",
+  "g": "Platform Terms (Review Before Sending)",
+  "q": "Resale, sublicensing and white-label rights",
+  "u": "Open"
+ },
+ {
+  "id": "lq44",
+  "g": "Platform Terms (Review Before Sending)",
+  "q": "Who owns the client account and its memory, and whether you keep admin access",
+  "u": "Open"
+ },
+ {
+  "id": "lq45",
+  "g": "Platform Terms (Review Before Sending)",
+  "q": "Whether consumer or individual plans can serve paying clients",
+  "u": "Open"
+ },
+ {
+  "id": "lq46",
+  "g": "Platform Terms (Review Before Sending)",
+  "q": "Commercial use and ownership of outputs",
+  "u": "Open"
+ },
+ {
+  "id": "lq47",
+  "g": "Platform Terms (Review Before Sending)",
+  "q": "Data roles, training use, and whether a DPA is available",
+  "u": "Open"
+ },
+ {
+  "id": "lq48",
+  "g": "Platform Terms (Review Before Sending)",
+  "q": "Using the platform name in marketing, or a partner program",
+  "u": "Open"
+ },
+ {
+  "id": "lq49",
+  "g": "Platform Terms (Review Before Sending)",
+  "q": "Liability split and indemnities for a consultant",
+  "u": "Open"
+ },
+ {
+  "id": "lq50",
+  "g": "Platform Terms (Review Before Sending)",
+  "q": "Seat, rate and multi-client usage limits",
+  "u": "Open"
+ }
+]
