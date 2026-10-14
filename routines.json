@@ -1,4 +1,19 @@
-{"updated":"2026-10-14 14:25 ICT","routines":[
- {"name":"Legal Morning Report","group":"Reports","schedule_plain":"Daily At 4:47 AM ICT","status":"on","last_run":"Today 4:49 AM"},
- {"name":"Legal Evening Report","group":"Reports","schedule_plain":"Daily At 5:47 PM ICT","status":"on","last_run":"Not Run Yet (First Run Today 5:47 PM)"}
-]}
+{
+ "updated": "2026-10-14 17:54 ICT",
+ "routines": [
+  {
+   "name": "Legal Morning Report",
+   "group": "Reports",
+   "schedule_plain": "Daily At 4:47 AM ICT",
+   "status": "on",
+   "last_run": "Today 4:49 AM"
+  },
+  {
+   "name": "Legal Evening Report",
+   "group": "Reports",
+   "schedule_plain": "Daily At 5:47 PM ICT",
+   "status": "on",
+   "last_run": "Today 5:54 PM"
+  }
+ ]
+}
