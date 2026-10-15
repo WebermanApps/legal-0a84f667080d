@@ -1,13 +1,14 @@
 {
  "type": "Morning Report",
- "date": "2026-10-14",
- "posted": "2026-10-14T17:54:02+07:00",
- "note": "Evening Reports retired (Max 20:05 ICT). This is the last update from Oct 14, 17:54 ICT. Next Morning Report is due Oct 15 by 5:00 AM ICT.",
+ "date": "2026-10-15",
+ "posted": "2026-10-15T07:24:45+07:00",
+ "updated": "2026-10-15T07:24:45+07:00",
+ "late": true,
+ "note": "Late: the 4:47 AM routine failed because usage ran out. Posted by hand.",
  "items": [
-  "Today Legal shipped the Morning Report (4:49 AM), joined the org chart as owner of all legal and lawyer work, and started two tracks from Security Deck round 1: Trademark & IP (drafts done, 11 decisions in Needs Max) and Before Member Data (privacy policy, terms, MCL 445.72 breach plan; drafts with UpKeep).",
-  "Dashboard: Routines section, Deck Launcher with the Smart Upkeep Launch Calls deck (20 cards from 42 open decisions), and Share moved to the header corner (audit R53). No deck answers came in today.",
-  "Still open: Wellnest attorney follow-up is overdue since Oct 13 (needs Ding Ding's email + the IG screenshot; WellNest owns). Smart Upkeep LLC is still not confirmed filed.",
-  "Tomorrow: Morning Report by 5:00 AM; watch for the LLC filing receipt; apply any Launch Calls deck answers. Still waiting on Max: 50 decisions, incl. the paid trademark search + attorney, offer-term stacking, and Lenny's 4 questions."
- ],
- "updated": "2026-10-14T17:54:02+07:00"
+  "Late today: the 4:47 AM run failed because usage ran out, so this report was posted by hand.",
+  "Last night: the Questions Center went live (51 open, 1 urgent) with 4 ready 20-card decks at the top. The Evening Report is retired and Routines moved to the bottom.",
+  "No answers from the decks or the Questions Center came in overnight, so nothing new was applied.",
+  "Still open: the Wellnest follow-up is overdue (needs Ding Ding's email and the IG screenshot), and the Smart Upkeep LLC filing still has no receipt."
+ ]
 }
