@@ -1,27 +1,32 @@
 [
  {
-  "id": "lq00",
+  "id": "lq00b",
   "g": "Wellnest",
-  "q": "Wellnest attorney follow-up: send Ding Ding's email address and the IG screenshot so it can go out",
-  "u": "Urgent",
-  "due": "Overdue 1 day"
+  "q": "For the WellNest attorney: can you send a screenshot of The Cocoon's Instagram post or profile showing it is renaming to \"Wellnest\"? The attorney needs it as proof of their use of the name.",
+  "u": "Urgent"
  },
  {
-  "id": "lq01",
+  "id": "lq02b",
   "g": "Trademark, IP And Member Data",
-  "q": "Attorney: engage a Michigan attorney (trademark plus privacy) and a cross-border CPA, and set the budget (TM D11)",
-  "u": "Open"
+  "q": "Approve a comprehensive trademark search plus attorney opinion for about $1,700–$3,000, and hold the van wrap, signs and print until it is back (about 2 weeks)?",
+  "u": "Soon"
  },
  {
-  "id": "lq02",
+  "id": "lq01b",
   "g": "Trademark, IP And Member Data",
-  "q": "Paid search: approve a comprehensive search and attorney opinion (about $1,000\u2013$2,500), and hold the wrap, signs and print until it's back (TM D1)",
+  "q": "Approve a legal and tax budget of about $5,000: Killeen Law (Detroit, flat fee) for privacy and terms, with a flat-fee trademark firm, and Bright!Tax for cross-border tax?",
+  "u": "Soon"
+ },
+ {
+  "id": "lq11b",
+  "g": "Trademark, IP And Member Data",
+  "q": "Pick the Standard cyber and E&O tier: $1M cyber + $1M E&O, about $1,500–$3,000 a year? (no purchase until you OK the quote)",
   "u": "Soon"
  },
  {
   "id": "lq03",
   "g": "Trademark, IP And Member Data",
-  "q": "Backup name: pick 2\u20133 candidates now for a knockout check (TM D2)",
+  "q": "Backup name: pick 2–3 candidates now for a knockout check (TM D2)",
   "u": "Open"
  },
  {
@@ -65,12 +70,6 @@
   "g": "Trademark, IP And Member Data",
   "q": "Retention: leads 12 months; recordings, Tech Cam and GPS 90 days; contracts term + 7 years (TM D9)",
   "u": "Open"
- },
- {
-  "id": "lq11",
-  "g": "Trademark, IP And Member Data",
-  "q": "Cyber and E&O insurance: budget and timing, before storing member data or marketing \"Warranty Check\" (TM D10)",
-  "u": "Soon"
  },
  {
   "id": "lq12",
