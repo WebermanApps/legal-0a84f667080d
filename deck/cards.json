@@ -1,45 +1,407 @@
-{"categories":{"launch":"Launch & Entity","tm":"Trademark & IP","terms":"Member Terms & Offers","privacy":"Privacy & Data","techcam":"Tech Cam"},
-"cards":[
-{"id":"lp-q1","cat":"launch","q":"Who contracts with members and does the work?","opts":["Smart Upkeep LLC staff","Weberman Construction (subcontract)","Licensed subs","A mix"],"src":"Launch plan Q1"},
-{"id":"lp-q2","cat":"launch","q":"Should Smart Upkeep LLC get its own builder license, instead of keeping licensed work under Weberman Construction and subs?","opts":["Yes, own license","No, keep it under WC and subs"],"src":"Launch plan Q2"},
-{"id":"lp-q4","cat":"launch","q":"Sign members up online only (no in-person or phone sales, so no 3-day cancel paperwork)?","opts":["Yes, online only","No, in person or phone too"],"src":"Launch plan Q4"},
-{"id":"lp-q6","cat":"launch","q":"Who accepts legal papers at the Suite 210 office while you're in Bangkok?","opts":["Me (I'm the resident agent)","A paid registered-agent service","Someone at the office"],"src":"Launch plan Q6"},
-{"id":"lp-q7","cat":"launch","q":"Keep the free in-home beta on Oct 26 (the LLC, insurance and licensing must be ready by then)?","opts":["Yes, keep Oct 26","No, move it later"],"src":"Launch plan Q7"},
-{"id":"lp-q8","cat":"launch","q":"Sell goods like filters, bulbs and hardware separately?","opts":["Sell separately","Include materials in the plan"],"src":"Launch plan Q8"},
-{"id":"lp-q10","cat":"launch","q":"Ready to fill in the Operating Agreement: capital contribution, successor, and the Thai company's name and fee terms?","opts":["Yes, I'll send them","Not yet"],"src":"Launch plan Q10"},
-{"id":"tm-d11","cat":"tm","q":"Engage a Michigan attorney (trademark plus privacy) and a cross-border CPA now?","opts":["Yes","No, not yet"],"src":"TM/IP D11"},
-{"id":"tm-d1","cat":"tm","q":"Approve a paid trademark search and attorney opinion (about $1,000–$2,500), and hold the wrap, signs and print until it comes back?","opts":["Yes","No"],"src":"TM/IP D1"},
-{"id":"tm-d2","cat":"tm","q":"Pick 2–3 backup names now for a knockout check?","opts":["Yes","No"],"src":"TM/IP D2"},
-{"id":"tm-d3","cat":"tm","q":"Make an anonymous broker offer on smartupkeep.com before its Dec 15 renewal, once the name is decided?","opts":["Yes","No"],"src":"TM/IP D3"},
-{"id":"tm-d4","cat":"tm","q":"Approve IP Option C: brand, content and member data in the US LLC; code in the Thai company under license, with a fallback license and escrow?","opts":["Yes","No"],"src":"TM/IP D4"},
-{"id":"tm-d5","cat":"tm","q":"Bridge period: where should the existing code be assigned?","opts":["US LLC now","Thai company at formation","Let the CPA decide"],"src":"TM/IP D5"},
-{"id":"tm-d6","cat":"tm","q":"Contractor non-solicit: 12 months, Wayne/Oakland/Macomb, members served only. OK?","opts":["Yes","No"],"src":"TM/IP D6"},
-{"id":"lp-q5a","cat":"tm","q":"Stay committed to the name 'Smart Upkeep' despite the conflicts found?","opts":["Yes","No"],"src":"Launch plan Q5"},
-{"id":"lp-q5b","cat":"tm","q":"Who owns the name and logo?","opts":["US LLC (as drafted)","Thai company"],"src":"Launch plan Q5"},
-{"id":"ot-d1","cat":"terms","q":"Should memberships auto-renew (annually, at the then-current price, with 15–45 days' notice)?","opts":["Yes","No"],"src":"Offer terms D1"},
-{"id":"ot-d2","cat":"terms","q":"Offer a true monthly payment option?","opts":["Yes, add monthly","No, Annual/Quarterly/2-Year only"],"src":"Offer terms D2"},
-{"id":"ot-d3","cat":"terms","q":"Which refund method?","opts":["Pure monthly pro-rata","Pro-rata with completed-services true-up"],"src":"Offer terms D3"},
-{"id":"ot-d4","cat":"terms","q":"How should partial months count on cancellation?","opts":["Cancel month counts as used","Prorate by day"],"src":"Offer terms D4"},
-{"id":"ot-d5","cat":"terms","q":"Credit referral months right away (lower MCL 445.903(1)(w) risk), instead of after the term is completed?","opts":["Credit right away","Keep complete-the-term"],"src":"Offer terms D5"},
-{"id":"ot-d6","cat":"terms","q":"Keep the 10% pay-annually discount on Complete?","opts":["Keep","Drop"],"src":"Offer terms D6"},
-{"id":"ot-d7","cat":"terms","q":"Give a 30-day refund window, with a full pro-rata refund, after an auto-renewal charge?","opts":["Yes","No"],"src":"Offer terms D7"},
-{"id":"ot-d8","cat":"terms","q":"When a member sells the home, what happens to unused paid months?","opts":["Refund the seller","Transfer to the buyer","Either, member's choice"],"src":"Offer terms D8"},
-{"id":"ot-d9","cat":"terms","q":"Add a pause policy where paused months extend the term?","opts":["Yes","No pause policy"],"src":"Offer terms D9"},
-{"id":"ot-d10","cat":"terms","q":"Confirm the tier names Essentials, Plus and Complete everywhere?","opts":["Yes","No"],"src":"Offer terms D10"},
-{"id":"tm-d7","cat":"terms","q":"Terms of use: keep no arbitration and no class waiver (the draft default)?","opts":["Yes, keep the default","No, add consumer arbitration"],"src":"TM/IP D7"},
-{"id":"tm-d8","cat":"privacy","q":"Send voluntary breach notices for door codes, photos and away dates, even where MCL 445.72 doesn't require them?","opts":["Yes","No"],"src":"TM/IP D8"},
-{"id":"tm-d9","cat":"privacy","q":"Use these retention periods: leads 12 months; recordings, Tech Cam and GPS 90 days; contracts term + 7 years?","opts":["Yes","No, set my own"],"src":"TM/IP D9"},
-{"id":"tm-d10","cat":"privacy","q":"Buy cyber and E&O insurance before storing member data or marketing 'Warranty Check'?","opts":["Yes","No, later"],"src":"TM/IP D10"},
-{"id":"lp-q9a","cat":"privacy","q":"Use an outside AI service for label scanning (member photos go to a third party)?","opts":["Yes","No"],"src":"Launch plan Q9"},
-{"id":"lp-q9b","cat":"privacy","q":"Use an outside AI phone assistant (member calls go to a third party)?","opts":["Yes","No"],"src":"Launch plan Q9"},
-{"id":"tc-d1","cat":"techcam","q":"Start with photos only, and allow video clips only for specific tasks?","opts":["Yes (recommended)","No"],"src":"Tech Cam D1"},
-{"id":"tc-d2","cat":"techcam","q":"Turn Meta AI off on visits and read labels through our own scan?","opts":["Yes (recommended)","No"],"src":"Tech Cam D2"},
-{"id":"tc-d3","cat":"techcam","q":"Live remote help: what should we do?","opts":["Drop it","Allow with per-visit consent and an empty room"],"src":"Tech Cam D3"},
-{"id":"tc-d4","cat":"techcam","q":"Use the proposed retention: 7 days raw, 90 days after membership ends, a legal hold for claims?","opts":["Yes","No, set my own"],"src":"Tech Cam D4"},
-{"id":"tc-d5","cat":"techcam","q":"Who reviews footage internally?","opts":["Me","An ops lead","Nobody routinely"],"src":"Tech Cam D5"},
-{"id":"tc-d6","cat":"techcam","q":"When must an adult (18+) be home?","opts":["Tech Cam visits only","All visits"],"src":"Tech Cam D6"},
-{"id":"tc-d7","cat":"techcam","q":"Skip Tech Cam marketing during the beta?","opts":["Yes, skip (recommended)","No, run it"],"src":"Tech Cam D7"},
-{"id":"tc-d8","cat":"techcam","q":"Pilot plan: your own test, then 3–5 consenting homes with no children or tenants, then review. OK?","opts":["Yes","No"],"src":"Tech Cam D8"},
-{"id":"tc-d9","cat":"techcam","q":"Buy company phones and accounts for the glasses?","opts":["Yes","No"],"src":"Tech Cam D9"},
-{"id":"tc-d10","cat":"techcam","q":"Should techs swap to safety glasses for rated tasks?","opts":["Yes","No"],"src":"Tech Cam D10"}
-]}
+{
+ "categories": {
+  "launch": "Launch & Entity",
+  "tm": "Trademark & IP",
+  "terms": "Member Terms & Offers",
+  "privacy": "Privacy & Data",
+  "techcam": "Tech Cam"
+ },
+ "cards": [
+  {
+   "id": "lp-q1",
+   "cat": "launch",
+   "q": "Who contracts with members and does the work?",
+   "opts": [
+    "Smart Upkeep LLC staff",
+    "Weberman Construction (subcontract)",
+    "Licensed subs",
+    "A mix"
+   ],
+   "src": "Launch plan Q1"
+  },
+  {
+   "id": "lp-q2",
+   "cat": "launch",
+   "q": "Should Smart Upkeep LLC get its own builder license, instead of keeping licensed work under Weberman Construction and subs?",
+   "opts": [
+    "Yes, own license",
+    "No, keep it under WC and subs"
+   ],
+   "src": "Launch plan Q2"
+  },
+  {
+   "id": "lp-q4",
+   "cat": "launch",
+   "q": "Sign members up online only (no in-person or phone sales, so no 3-day cancel paperwork)?",
+   "opts": [
+    "Yes, online only",
+    "No, in person or phone too"
+   ],
+   "src": "Launch plan Q4"
+  },
+  {
+   "id": "lp-q6",
+   "cat": "launch",
+   "q": "Who accepts legal papers at the Suite 210 office while you're in Bangkok?",
+   "opts": [
+    "Me (I'm the resident agent)",
+    "A paid registered-agent service",
+    "Someone at the office"
+   ],
+   "src": "Launch plan Q6"
+  },
+  {
+   "id": "lp-q7",
+   "cat": "launch",
+   "q": "Keep the free in-home beta on Oct 26 (the LLC, insurance and licensing must be ready by then)?",
+   "opts": [
+    "Yes, keep Oct 26",
+    "No, move it later"
+   ],
+   "src": "Launch plan Q7"
+  },
+  {
+   "id": "lp-q8",
+   "cat": "launch",
+   "q": "Sell goods like filters, bulbs and hardware separately?",
+   "opts": [
+    "Sell separately",
+    "Include materials in the plan"
+   ],
+   "src": "Launch plan Q8"
+  },
+  {
+   "id": "lp-q10",
+   "cat": "launch",
+   "q": "Ready to fill in the Operating Agreement: capital contribution, successor, and the Thai company's name and fee terms?",
+   "opts": [
+    "Yes, I'll send them",
+    "Not yet"
+   ],
+   "src": "Launch plan Q10"
+  },
+  {
+   "id": "tm-d2",
+   "cat": "tm",
+   "q": "Pick 2–3 backup names now for a knockout check?",
+   "opts": [
+    "Yes",
+    "No"
+   ],
+   "src": "TM/IP D2"
+  },
+  {
+   "id": "tm-d3",
+   "cat": "tm",
+   "q": "Make an anonymous broker offer on smartupkeep.com before its Dec 15 renewal, once the name is decided?",
+   "opts": [
+    "Yes",
+    "No"
+   ],
+   "src": "TM/IP D3"
+  },
+  {
+   "id": "tm-d4",
+   "cat": "tm",
+   "q": "Approve IP Option C: brand, content and member data in the US LLC; code in the Thai company under license, with a fallback license and escrow?",
+   "opts": [
+    "Yes",
+    "No"
+   ],
+   "src": "TM/IP D4"
+  },
+  {
+   "id": "tm-d5",
+   "cat": "tm",
+   "q": "Bridge period: where should the existing code be assigned?",
+   "opts": [
+    "US LLC now",
+    "Thai company at formation",
+    "Let the CPA decide"
+   ],
+   "src": "TM/IP D5"
+  },
+  {
+   "id": "tm-d6",
+   "cat": "tm",
+   "q": "Contractor non-solicit: 12 months, Wayne/Oakland/Macomb, members served only. OK?",
+   "opts": [
+    "Yes",
+    "No"
+   ],
+   "src": "TM/IP D6"
+  },
+  {
+   "id": "lp-q5a",
+   "cat": "tm",
+   "q": "Stay committed to the name 'Smart Upkeep'? (The paid clearance search is now asked separately, in the trademark search question.)",
+   "opts": [
+    "Yes",
+    "No"
+   ],
+   "src": "Launch plan Q5"
+  },
+  {
+   "id": "lp-q5b",
+   "cat": "tm",
+   "q": "Who owns the name and logo?",
+   "opts": [
+    "US LLC (as drafted)",
+    "Thai company"
+   ],
+   "src": "Launch plan Q5"
+  },
+  {
+   "id": "ot-d1",
+   "cat": "terms",
+   "q": "Should memberships auto-renew (annually, at the then-current price, with 15–45 days' notice)?",
+   "opts": [
+    "Yes",
+    "No"
+   ],
+   "src": "Offer terms D1"
+  },
+  {
+   "id": "ot-d2",
+   "cat": "terms",
+   "q": "Confirm: prepay only (Annual, Quarterly, 2-Year), with no monthly card option? You picked this in the Order Form Details Deck on Oct 15.",
+   "opts": [
+    "Confirm",
+    "Change it"
+   ],
+   "src": "Offer terms D2"
+  },
+  {
+   "id": "ot-d3",
+   "cat": "terms",
+   "q": "Which refund method?",
+   "opts": [
+    "Pure monthly pro-rata",
+    "Pro-rata with completed-services true-up"
+   ],
+   "src": "Offer terms D3"
+  },
+  {
+   "id": "ot-d4",
+   "cat": "terms",
+   "q": "How should partial months count on cancellation?",
+   "opts": [
+    "Cancel month counts as used",
+    "Prorate by day"
+   ],
+   "src": "Offer terms D4"
+  },
+  {
+   "id": "ot-d5",
+   "cat": "terms",
+   "q": "Confirm referrals: one free month per referral, credited as a month added to the term, and a pending referral stays hidden until it's credited?",
+   "opts": [
+    "Confirm",
+    "Change it"
+   ],
+   "src": "Offer terms D5"
+  },
+  {
+   "id": "ot-d6",
+   "cat": "terms",
+   "q": "Keep the 10% pay-annually discount on Complete?",
+   "opts": [
+    "Keep",
+    "Drop"
+   ],
+   "src": "Offer terms D6"
+  },
+  {
+   "id": "ot-d7",
+   "cat": "terms",
+   "q": "Give a 30-day refund window, with a full pro-rata refund, after an auto-renewal charge?",
+   "opts": [
+    "Yes",
+    "No"
+   ],
+   "src": "Offer terms D7"
+  },
+  {
+   "id": "ot-d8",
+   "cat": "terms",
+   "q": "When a member sells the home, what happens to unused paid months?",
+   "opts": [
+    "Refund the seller",
+    "Transfer to the buyer",
+    "Either, member's choice"
+   ],
+   "src": "Offer terms D8"
+  },
+  {
+   "id": "ot-d9",
+   "cat": "terms",
+   "q": "Add a pause policy where paused months extend the term?",
+   "opts": [
+    "Yes",
+    "No pause policy"
+   ],
+   "src": "Offer terms D9"
+  },
+  {
+   "id": "ot-d10",
+   "cat": "terms",
+   "q": "Confirm the tier names Essentials, Plus and Complete? They're already live.",
+   "opts": [
+    "Confirm",
+    "Change it"
+   ],
+   "src": "Offer terms D10"
+  },
+  {
+   "id": "tm-d7",
+   "cat": "terms",
+   "q": "Terms of use: keep no arbitration and no class waiver (the draft default)?",
+   "opts": [
+    "Yes, keep the default",
+    "No, add consumer arbitration"
+   ],
+   "src": "TM/IP D7"
+  },
+  {
+   "id": "tm-d8",
+   "cat": "privacy",
+   "q": "Send voluntary breach notices for door codes, photos and away dates, even where MCL 445.72 doesn't require them?",
+   "opts": [
+    "Yes",
+    "No"
+   ],
+   "src": "TM/IP D8"
+  },
+  {
+   "id": "tm-d9",
+   "cat": "privacy",
+   "q": "Use these retention periods: leads 12 months; recordings, Tech Cam and GPS 90 days; contracts term + 7 years?",
+   "opts": [
+    "Yes",
+    "No, set my own"
+   ],
+   "src": "TM/IP D9"
+  },
+  {
+   "id": "lp-q9a",
+   "cat": "privacy",
+   "q": "Use an outside AI service for label scanning (member photos go to a third party)?",
+   "opts": [
+    "Yes",
+    "No"
+   ],
+   "src": "Launch plan Q9"
+  },
+  {
+   "id": "lp-q9b",
+   "cat": "privacy",
+   "q": "Use an outside AI phone assistant (member calls go to a third party)?",
+   "opts": [
+    "Yes",
+    "No"
+   ],
+   "src": "Launch plan Q9"
+  },
+  {
+   "id": "tc-d1",
+   "cat": "techcam",
+   "q": "Start with photos only, and allow video clips only for specific tasks?",
+   "opts": [
+    "Yes (recommended)",
+    "No"
+   ],
+   "src": "Tech Cam D1"
+  },
+  {
+   "id": "tc-d2",
+   "cat": "techcam",
+   "q": "Turn Meta AI off on visits and read labels through our own scan?",
+   "opts": [
+    "Yes (recommended)",
+    "No"
+   ],
+   "src": "Tech Cam D2"
+  },
+  {
+   "id": "tc-d3",
+   "cat": "techcam",
+   "q": "Live remote help: what should we do?",
+   "opts": [
+    "Drop it",
+    "Allow with per-visit consent and an empty room"
+   ],
+   "src": "Tech Cam D3"
+  },
+  {
+   "id": "tc-d4",
+   "cat": "techcam",
+   "q": "Use the proposed retention: 7 days raw, 90 days after membership ends, a legal hold for claims?",
+   "opts": [
+    "Yes",
+    "No, set my own"
+   ],
+   "src": "Tech Cam D4"
+  },
+  {
+   "id": "tc-d5",
+   "cat": "techcam",
+   "q": "Who reviews footage internally?",
+   "opts": [
+    "Me",
+    "An ops lead",
+    "Nobody routinely"
+   ],
+   "src": "Tech Cam D5"
+  },
+  {
+   "id": "tc-d6",
+   "cat": "techcam",
+   "q": "When must an adult (18+) be home?",
+   "opts": [
+    "Tech Cam visits only",
+    "All visits"
+   ],
+   "src": "Tech Cam D6"
+  },
+  {
+   "id": "tc-d7",
+   "cat": "techcam",
+   "q": "Skip Tech Cam marketing during the beta?",
+   "opts": [
+    "Yes, skip (recommended)",
+    "No, run it"
+   ],
+   "src": "Tech Cam D7"
+  },
+  {
+   "id": "tc-d8",
+   "cat": "techcam",
+   "q": "Pilot plan: your own test, then 3–5 consenting homes with no children or tenants, then review. OK?",
+   "opts": [
+    "Yes",
+    "No"
+   ],
+   "src": "Tech Cam D8"
+  },
+  {
+   "id": "tc-d9",
+   "cat": "techcam",
+   "q": "Buy company phones and accounts for the glasses?",
+   "opts": [
+    "Yes",
+    "No"
+   ],
+   "src": "Tech Cam D9"
+  },
+  {
+   "id": "tc-d10",
+   "cat": "techcam",
+   "q": "Should techs swap to safety glasses for rated tasks?",
+   "opts": [
+    "Yes",
+    "No"
+   ],
+   "src": "Tech Cam D10"
+  }
+ ]
+}
