@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-15 07:30 ICT",
+ "updated": "2026-10-15 14:15 ICT",
  "routines": [
   {
    "name": "Legal Morning Report",
    "group": "Reports",
    "schedule_plain": "Daily At 4:47 AM ICT",
-   "status": "on",
+   "status": "paused",
    "last_run": "Oct 15 4:48 AM (failed, usage ran out)"
   }
  ]
