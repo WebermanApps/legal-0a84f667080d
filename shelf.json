@@ -8,7 +8,8 @@
    "url": "deck/?cats=launch,tm&name=Launch%20%26%20Trademark%20Deck",
    "total": 20,
    "topic": "launch,tm",
-   "blurb": "LLC, beta date, name risk, IP ownership"
+   "blurb": "LLC, beta date, name risk, IP ownership",
+   "progress_key": "legal-deck-ans:Launch & Trademark Deck"
   },
   {
    "id": "legal-terms",
@@ -16,7 +17,8 @@
    "url": "deck/?cats=terms,launch&name=Member%20Terms%20Deck",
    "total": 20,
    "topic": "terms,launch",
-   "blurb": "Auto-renew, refunds, referrals, tiers"
+   "blurb": "Auto-renew, refunds, referrals, tiers",
+   "progress_key": "legal-deck-ans:Member Terms Deck"
   },
   {
    "id": "legal-privacy-cam",
@@ -24,7 +26,8 @@
    "url": "deck/?cats=privacy,techcam&name=Privacy%20%26%20Tech%20Cam%20Deck",
    "total": 20,
    "topic": "privacy,techcam",
-   "blurb": "Breach notice, retention, glasses consent"
+   "blurb": "Breach notice, retention, glasses consent",
+   "progress_key": "legal-deck-ans:Privacy & Tech Cam Deck"
   },
   {
    "id": "legal-launch-calls",
@@ -32,7 +35,8 @@
    "url": "deck/?cats=launch,tm,terms,privacy,techcam&name=Smart%20Upkeep%20Launch%20Calls",
    "total": 20,
    "topic": "launch,tm,terms,privacy,techcam",
-   "blurb": "A mix of every open legal call"
+   "blurb": "A mix of every open legal call",
+   "progress_key": "legal-deck-ans:Smart Upkeep Launch Calls"
   }
  ]
 }
