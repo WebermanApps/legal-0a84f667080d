@@ -1,42 +1,78 @@
 {
  "agent": "legal",
- "updated": "2026-10-17T08:05:35+07:00",
+ "updated": "2026-10-17T19:05:00+07:00",
  "decks": [
   {
-   "id": "legal-launch-tm",
-   "name": "Launch & Trademark Deck",
-   "url": "deck/?cats=launch,tm&name=Launch%20%26%20Trademark%20Deck",
-   "total": 20,
-   "topic": "launch,tm",
-   "blurb": "LLC, beta date, name risk, IP ownership",
-   "progress_key": "legal-deck-ans:Launch & Trademark Deck"
+   "id": "legal-launch-entity",
+   "name": "Launch & Entity Deck",
+   "url": "deck/?cats=launch&o=0&n=10&name=Launch%20%26%20Entity%20Deck",
+   "total": 10,
+   "topic": "launch",
+   "blurb": "LLC, who contracts, beta date",
+   "progress_key": "legal-deck-ans:Launch & Entity Deck"
   },
   {
-   "id": "legal-terms",
+   "id": "legal-trademark-name",
+   "name": "Trademark & Name Deck",
+   "url": "deck/?cats=tm&o=0&n=10&name=Trademark%20%26%20Name%20Deck",
+   "total": 10,
+   "topic": "tm",
+   "blurb": "Name risk, clearance, IP ownership",
+   "progress_key": "legal-deck-ans:Trademark & Name Deck"
+  },
+  {
+   "id": "legal-member-terms",
    "name": "Member Terms Deck",
-   "url": "deck/?cats=terms,launch&name=Member%20Terms%20Deck",
-   "total": 20,
-   "topic": "terms,launch",
-   "blurb": "Auto-renew, refunds, referrals, tiers",
+   "url": "deck/?cats=terms&o=0&n=10&name=Member%20Terms%20Deck",
+   "total": 10,
+   "topic": "terms",
+   "blurb": "Auto-renew, refunds, tiers",
    "progress_key": "legal-deck-ans:Member Terms Deck"
   },
   {
-   "id": "legal-privacy-cam",
-   "name": "Privacy & Tech Cam Deck",
-   "url": "deck/?cats=privacy,techcam&name=Privacy%20%26%20Tech%20Cam%20Deck",
-   "total": 20,
-   "topic": "privacy,techcam",
-   "blurb": "Breach notice, retention, glasses consent",
-   "progress_key": "legal-deck-ans:Privacy & Tech Cam Deck"
+   "id": "legal-billing-referrals",
+   "name": "Billing & Referrals Deck",
+   "url": "deck/?cats=terms&o=5&n=10&name=Billing%20%26%20Referrals%20Deck",
+   "total": 10,
+   "topic": "terms",
+   "blurb": "Prepay, referrals, renewal notices",
+   "progress_key": "legal-deck-ans:Billing & Referrals Deck"
   },
   {
-   "id": "legal-launch-calls",
-   "name": "Smart Upkeep Launch Calls",
-   "url": "deck/?cats=launch,tm,terms,privacy,techcam&name=Smart%20Upkeep%20Launch%20Calls",
-   "total": 20,
+   "id": "legal-privacy-data",
+   "name": "Privacy & Data Deck",
+   "url": "deck/?cats=privacy&o=0&n=10&name=Privacy%20%26%20Data%20Deck",
+   "total": 10,
+   "topic": "privacy",
+   "blurb": "Breach notice, retention, member data",
+   "progress_key": "legal-deck-ans:Privacy & Data Deck"
+  },
+  {
+   "id": "legal-tech-cam",
+   "name": "Tech Cam Deck",
+   "url": "deck/?cats=techcam&o=0&n=10&name=Tech%20Cam%20Deck",
+   "total": 10,
+   "topic": "techcam",
+   "blurb": "Glasses consent, recording rules",
+   "progress_key": "legal-deck-ans:Tech Cam Deck"
+  },
+  {
+   "id": "legal-launch-mix",
+   "name": "Launch Calls Mix Deck",
+   "url": "deck/?cats=launch,tm,terms,privacy,techcam&o=0&n=10&name=Launch%20Calls%20Mix%20Deck",
+   "total": 10,
    "topic": "launch,tm,terms,privacy,techcam",
-   "blurb": "A mix of every open legal call",
-   "progress_key": "legal-deck-ans:Smart Upkeep Launch Calls"
+   "blurb": "A mix of open legal calls",
+   "progress_key": "legal-deck-ans:Launch Calls Mix Deck"
+  },
+  {
+   "id": "legal-open-calls-mix",
+   "name": "Open Calls Mix Deck",
+   "url": "deck/?cats=launch,tm,terms,privacy,techcam&o=10&n=10&name=Open%20Calls%20Mix%20Deck",
+   "total": 10,
+   "topic": "launch,tm,terms,privacy,techcam",
+   "blurb": "More open legal calls, mixed",
+   "progress_key": "legal-deck-ans:Open Calls Mix Deck"
   }
  ],
  "cap": 10,
