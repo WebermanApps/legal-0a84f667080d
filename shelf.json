@@ -1,6 +1,6 @@
 {
  "agent": "legal",
- "updated": "2026-10-17T19:05:00+07:00",
+ "updated": "2026-10-18T03:43:27+07:00",
  "decks": [
   {
    "id": "legal-launch-entity",
@@ -73,6 +73,21 @@
    "topic": "launch,tm,terms,privacy,techcam",
    "blurb": "More open legal calls, mixed",
    "progress_key": "legal-deck-ans:Open Calls Mix Deck"
+  },
+  {
+   "id": "legal-questions-center-grouping-deck",
+   "name": "Legal Questions Center: Grouping",
+   "url": "https://webermanapps.github.io/style-swipe/legal-questions-grouping-wb81jf/",
+   "total": 10,
+   "topic": "legal-questions-center-grouping-deck",
+   "added": "2026-10-18T03:43:27+07:00",
+   "tag": "Questions Center",
+   "answered": 0,
+   "requested": true,
+   "requested_at": "2026-10-18T03:11:00+07:00",
+   "blurb": "10 cards: how to group the Questions Center",
+   "new": true,
+   "note": "Branding morning decks Oct 18 from the Oct 17 daily work report"
   }
  ],
  "cap": 10,
