@@ -1,6 +1,6 @@
 {
  "agent": "legal",
- "updated": "2026-10-14T19:40+07:00",
+ "updated": "2026-10-17T08:05:35+07:00",
  "decks": [
   {
    "id": "legal-launch-tm",
@@ -38,5 +38,9 @@
    "blurb": "A mix of every open legal call",
    "progress_key": "legal-deck-ans:Smart Upkeep Launch Calls"
   }
- ]
+ ],
+ "cap": 10,
+ "cap_note": "R86 (Max Oct 17 2026 07:50 ICT): every shelf shows up to 10 decks (pinned included), 10 picks per deck; in-progress first, done last (kit deck-shelf.js sort)",
+ "held": [],
+ "queued": []
 }
