@@ -30,16 +30,6 @@
    "src": "Launch plan Q2"
   },
   {
-   "id": "lp-q4",
-   "cat": "launch",
-   "q": "Sign members up online only (no in-person or phone sales, so no 3-day cancel paperwork)?",
-   "opts": [
-    "Yes, online only",
-    "No, in person or phone too"
-   ],
-   "src": "Launch plan Q4"
-  },
-  {
    "id": "lp-q6",
    "cat": "launch",
    "q": "Who accepts legal papers at the Suite 210 office while you're in Bangkok?",
@@ -49,16 +39,6 @@
     "Someone at the office"
    ],
    "src": "Launch plan Q6"
-  },
-  {
-   "id": "lp-q7",
-   "cat": "launch",
-   "q": "Keep the free in-home beta on Jan 1, 2027 (the LLC, insurance and licensing must be ready by then)?",
-   "opts": [
-    "Yes, keep Jan 1",
-    "No, move it later"
-   ],
-   "src": "Launch plan Q7"
   },
   {
    "id": "lp-q8",
@@ -91,16 +71,6 @@
    "src": "TM/IP D2"
   },
   {
-   "id": "tm-d3",
-   "cat": "tm",
-   "q": "Make an anonymous broker offer on smartupkeep.com before its Dec 15 renewal, once the name is decided?",
-   "opts": [
-    "Yes",
-    "No"
-   ],
-   "src": "TM/IP D3"
-  },
-  {
    "id": "tm-d6",
    "cat": "tm",
    "q": "Contractor non-solicit: 12 months, Wayne/Oakland/Macomb, members served only. OK?",
@@ -113,7 +83,7 @@
   {
    "id": "lp-q5a",
    "cat": "tm",
-   "q": "Stay committed to the name 'Smart Upkeep'? (The paid clearance search is now asked separately, in the trademark search question.)",
+   "q": "Stay committed to the name 'Smart Upkeep'?",
    "opts": [
     "Yes",
     "No"
@@ -133,7 +103,7 @@
   {
    "id": "ot-d1",
    "cat": "terms",
-   "q": "Should memberships auto-renew (annually, at the then-current price, with 15–45 days' notice)?",
+   "q": "Auto-renew: the online sign-up already shows a draft auto-renew consent box. Keep auto-renew on (annually, at the then-current price, with a 30-day reminder)?",
    "opts": [
     "Yes",
     "No"
@@ -220,16 +190,6 @@
     "No pause policy"
    ],
    "src": "Offer terms D9"
-  },
-  {
-   "id": "ot-d10",
-   "cat": "terms",
-   "q": "Confirm the tier names Essentials, Plus and Complete? They're already live.",
-   "opts": [
-    "Confirm",
-    "Change it"
-   ],
-   "src": "Offer terms D10"
   },
   {
    "id": "tm-d7",
@@ -381,6 +341,231 @@
     "No"
    ],
    "src": "Tech Cam D10"
+  },
+  {
+   "id": "lp-q11",
+   "cat": "launch",
+   "q": "Get a general liability policy ($1M/$2M, about $545 a year) before the Jan 1 beta, since damage in a member's home isn't covered by E&O? (no quote until you OK it)",
+   "opts": [
+    "Yes",
+    "No"
+   ],
+   "src": "Cyber and E&O brief Oct 17"
+  },
+  {
+   "id": "lp-q12",
+   "cat": "launch",
+   "q": "Will beta techs be W-2 employees or 1099 contractors?",
+   "opts": [
+    "W-2 employees",
+    "1099 contractors",
+    "Weberman Construction crew",
+    "Decide later"
+   ],
+   "src": "Legal open matters Oct 17"
+  },
+  {
+   "id": "lp-q13",
+   "cat": "launch",
+   "q": "Cap UpKeep's liability in the member agreement at the fees paid in the last 12 months?",
+   "opts": [
+    "Yes, 12 months of fees",
+    "Yes, a fixed dollar cap",
+    "No cap",
+    "Ask the attorney"
+   ],
+   "src": "Legal open matters Oct 17"
+  },
+  {
+   "id": "lp-q14",
+   "cat": "launch",
+   "q": "Get a one-time flat-fee Michigan attorney review of the member agreement, in-person cancel form and phone script before Jan 1? (smaller than the $5k budget you declined)",
+   "opts": [
+    "Yes",
+    "No"
+   ],
+   "src": "Legal open matters Oct 17"
+  },
+  {
+   "id": "lp-q15",
+   "cat": "launch",
+   "q": "Line up workers' comp before the first hire? (Michigan requires it at 3+ employees, or 1 employee working 35+ hours a week for 13 weeks)",
+   "opts": [
+    "Yes",
+    "No"
+   ],
+   "src": "Legal open matters Oct 17"
+  },
+  {
+   "id": "tm-d10",
+   "cat": "tm",
+   "q": "After the free knockout check, file the federal trademark for 'Smart Upkeep' yourself (USPTO fee about $350 per class)?",
+   "opts": [
+    "Yes, file it",
+    "Wait",
+    "Use an attorney"
+   ],
+   "src": "Legal open matters Oct 17"
+  },
+  {
+   "id": "tm-d11",
+   "cat": "tm",
+   "q": "Have every designer and contractor sign an IP assignment so UpKeep owns the logo, site, app and photos?",
+   "opts": [
+    "Yes",
+    "No"
+   ],
+   "src": "Legal open matters Oct 17"
+  },
+  {
+   "id": "tm-d12",
+   "cat": "tm",
+   "q": "Use the TM symbol next to 'Smart Upkeep' on the site, van and print now (no registration needed)?",
+   "opts": [
+    "Yes",
+    "No"
+   ],
+   "src": "Legal open matters Oct 17"
+  },
+  {
+   "id": "tm-d13",
+   "cat": "tm",
+   "q": "Reserve the Smart Upkeep handle on Instagram, Facebook, TikTok and YouTube now?",
+   "opts": [
+    "Yes",
+    "No"
+   ],
+   "src": "Legal open matters Oct 17"
+  },
+  {
+   "id": "tm-d14",
+   "cat": "tm",
+   "q": "Add a copyright notice to the app, website and printed home record?",
+   "opts": [
+    "Yes",
+    "No"
+   ],
+   "src": "Legal open matters Oct 17"
+  },
+  {
+   "id": "pd-d1",
+   "cat": "privacy",
+   "q": "Use member photos and reviews in marketing only with a separate opt-in checkbox?",
+   "opts": [
+    "Yes",
+    "No"
+   ],
+   "src": "Legal open matters Oct 17"
+  },
+  {
+   "id": "pd-d2",
+   "cat": "privacy",
+   "q": "Require two-step login (MFA) on every account that holds member data: email, billing and the app admin?",
+   "opts": [
+    "Yes",
+    "No"
+   ],
+   "src": "Research cyber cross-check Oct 17"
+  },
+  {
+   "id": "pd-d3",
+   "cat": "privacy",
+   "q": "Take payments only on a hosted payment page, so card numbers never touch UpKeep's systems?",
+   "opts": [
+    "Yes",
+    "No"
+   ],
+   "src": "Cyber and E&O brief Oct 17"
+  },
+  {
+   "id": "pd-d4",
+   "cat": "privacy",
+   "q": "Store door and lockbox codes encrypted, visible only to the assigned tech on visit day?",
+   "opts": [
+    "Yes",
+    "No"
+   ],
+   "src": "Legal open matters Oct 17"
+  },
+  {
+   "id": "pd-d5",
+   "cat": "privacy",
+   "q": "Let members download or delete their home record when they leave?",
+   "opts": [
+    "Yes",
+    "No"
+   ],
+   "src": "Legal open matters Oct 17"
+  },
+  {
+   "id": "pd-d6",
+   "cat": "privacy",
+   "q": "Send marketing texts only to members who opted in in writing (federal TCPA rules)?",
+   "opts": [
+    "Yes",
+    "No"
+   ],
+   "src": "Legal open matters Oct 17"
+  },
+  {
+   "id": "ot-d11",
+   "cat": "terms",
+   "q": "Charge a missed-visit fee when no adult is home at the booked time?",
+   "opts": [
+    "Yes",
+    "No"
+   ],
+   "src": "Legal open matters Oct 17"
+  },
+  {
+   "id": "ot-d12",
+   "cat": "terms",
+   "q": "Say plainly on the plan page and agreement that UpKeep is not a home warranty or insurance?",
+   "opts": [
+    "Yes",
+    "No"
+   ],
+   "src": "Legal open matters Oct 17"
+  },
+  {
+   "id": "ot-d13",
+   "cat": "terms",
+   "q": "Require members to keep their own homeowner's insurance (the draft terms already assume it)?",
+   "opts": [
+    "Yes",
+    "No"
+   ],
+   "src": "Legal open matters Oct 17"
+  },
+  {
+   "id": "ot-d14",
+   "cat": "terms",
+   "q": "Give at least 30 days' notice before any renewal at a higher price?",
+   "opts": [
+    "Yes",
+    "No"
+   ],
+   "src": "Legal open matters Oct 17"
+  },
+  {
+   "id": "ot-d15",
+   "cat": "terms",
+   "q": "Ask a CPA whether Michigan sales tax applies to filters, bulbs and parts sold during visits?",
+   "opts": [
+    "Yes",
+    "No"
+   ],
+   "src": "Legal open matters Oct 17"
+  },
+  {
+   "id": "tm-d15",
+   "cat": "tm",
+   "q": "Keep a dated file of first use of 'Smart Upkeep' (first ad, site launch, first paid member) as trademark evidence?",
+   "opts": [
+    "Yes",
+    "No"
+   ],
+   "src": "Legal open matters Oct 17"
   }
  ]
 }

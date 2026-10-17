@@ -57,7 +57,7 @@
  {
   "id": "lq17",
   "g": "Membership Terms And Billing",
-  "q": "Auto-renew yes or no, and what a 2-year plan renews into (Offer D1, Launch Q3)",
+  "q": "Auto-renew: a draft auto-renew consent box is already live on the online sign-up. What should a 2-year plan renew into? (Offer D1, Launch Q3)",
   "u": "Open"
  },
  {
@@ -106,18 +106,6 @@
   "id": "lq25",
   "g": "Membership Terms And Billing",
   "q": "Pause policy: does it extend the term, and how does it affect earned free months (Offer D9, Launch Q3)",
-  "u": "Open"
- },
- {
-  "id": "lq26",
-  "g": "Membership Terms And Billing",
-  "q": "Confirm the tier names Essentials, Plus and Complete? They're already live.",
-  "u": "Open"
- },
- {
-  "id": "lq27",
-  "g": "Membership Terms And Billing",
-  "q": "Sign-ups: online only, or in person and by phone too (which triggers 3-day cancel paperwork) (Launch Q4)",
   "u": "Open"
  },
  {
