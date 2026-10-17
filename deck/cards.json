@@ -53,9 +53,9 @@
   {
    "id": "lp-q7",
    "cat": "launch",
-   "q": "Keep the free in-home beta on Oct 26 (the LLC, insurance and licensing must be ready by then)?",
+   "q": "Keep the free in-home beta on Jan 1, 2027 (the LLC, insurance and licensing must be ready by then)?",
    "opts": [
-    "Yes, keep Oct 26",
+    "Yes, keep Jan 1",
     "No, move it later"
    ],
    "src": "Launch plan Q7"
