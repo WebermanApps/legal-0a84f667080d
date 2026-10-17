@@ -17,7 +17,7 @@
   "g": "Trademark, IP And Member Data",
   "q": "Approve a legal and tax budget of about $5,000: Killeen Law (Detroit, flat fee) for privacy and terms, with a flat-fee trademark firm, and Bright!Tax for cross-border tax?",
   "u": "Soon",
-  "d": "Killeen Law PLLC (Detroit) writes the privacy policy and member terms, flat fee, mostly $2,000 to $4,000. It doesn't list trademark work. A flat-fee trademark firm (Cionca IP, Gerben IP or Morris Turek) handles the name search, opinion and federal filing: $350 for a federal-only search, $1,700 to $3,000 for full packages. Bright!Tax handles cross-border US-Thailand tax for the LLC and your Thai company (Form 5471, your 1040 and FBAR), from $2,199 a year. American Expat CPA is an alternative, from $650 for Form 5471 plus $350 an hour for advice. Proposed budget: about $5,000 for the lawyer and the accountant (my estimate), on top of the search."
+  "d": "Killeen Law PLLC (Detroit) writes the privacy policy and member terms, flat fee, mostly $2,000 to $4,000. It doesn't list trademark work. A flat-fee trademark firm (Cionca IP, Gerben IP or Morris Turek) handles the name search, opinion and federal filing: $350 for a federal-only search, $1,700 to $3,000 for full packages. Proposed budget: about $5,000 for the lawyer and the accountant (my estimate), on top of the search."
  },
  {
   "id": "lq11b",
@@ -35,18 +35,6 @@
   "id": "lq04",
   "g": "Trademark, IP And Member Data",
   "q": "smartupkeep.com: make an anonymous broker offer before it renews Dec 15, once the name is decided (TM D3)",
-  "u": "Open"
- },
- {
-  "id": "lq05",
-  "g": "Trademark, IP And Member Data",
-  "q": "IP Option C: brand, content and member data in the US LLC; code in the Thai company under license, with a fallback license and escrow (TM D4)",
-  "u": "Open"
- },
- {
-  "id": "lq06",
-  "g": "Trademark, IP And Member Data",
-  "q": "Bridge period: assign existing code to the US LLC now, or to the Thai company at formation (CPA decides) (TM D5)",
   "u": "Open"
  },
  {
@@ -89,12 +77,6 @@
   "id": "lq14",
   "g": "Entity And Licensing",
   "q": "Resident agent: residency and agent identity confirmed Oct 13 (Max still MI resident; agent Max at Suite 210); open piece is who physically accepts papers there while you're in Bangkok (Launch Q6)",
-  "u": "Open"
- },
- {
-  "id": "lq15",
-  "g": "Entity And Licensing",
-  "q": "Operating Agreement: capital contribution, successor or designee, and the Thai company's legal name and fee terms (Launch Q10)",
   "u": "Open"
  },
  {
@@ -178,7 +160,7 @@
  {
   "id": "lq29",
   "g": "Brand And Trademark",
-  "q": "Commit to 'Smart Upkeep', use 'SmartKeep' too, and decide whether the US LLC or the Thai company owns the name? (The clearance search is part of the trademark search question.)",
+  "q": "Commit to 'Smart Upkeep' and use 'SmartKeep' too? (The clearance search is part of the trademark search question.)",
   "u": "Open"
  },
  {

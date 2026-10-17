@@ -73,7 +73,7 @@
   {
    "id": "lp-q10",
    "cat": "launch",
-   "q": "Ready to fill in the Operating Agreement: capital contribution, successor, and the Thai company's name and fee terms?",
+   "q": "Ready to fill in the Operating Agreement: capital contribution, successor, and fee terms?",
    "opts": [
     "Yes, I'll send them",
     "Not yet"
@@ -101,27 +101,6 @@
    "src": "TM/IP D3"
   },
   {
-   "id": "tm-d4",
-   "cat": "tm",
-   "q": "Approve IP Option C: brand, content and member data in the US LLC; code in the Thai company under license, with a fallback license and escrow?",
-   "opts": [
-    "Yes",
-    "No"
-   ],
-   "src": "TM/IP D4"
-  },
-  {
-   "id": "tm-d5",
-   "cat": "tm",
-   "q": "Bridge period: where should the existing code be assigned?",
-   "opts": [
-    "US LLC now",
-    "Thai company at formation",
-    "Let the CPA decide"
-   ],
-   "src": "TM/IP D5"
-  },
-  {
    "id": "tm-d6",
    "cat": "tm",
    "q": "Contractor non-solicit: 12 months, Wayne/Oakland/Macomb, members served only. OK?",
@@ -147,7 +126,7 @@
    "q": "Who owns the name and logo?",
    "opts": [
     "US LLC (as drafted)",
-    "Thai company"
+    "Decide later"
    ],
    "src": "Launch plan Q5"
   },
