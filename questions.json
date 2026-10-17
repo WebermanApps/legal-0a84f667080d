@@ -1,10 +1,10 @@
 [
  {
-  "id": "lq11c",
+  "id": "lq11d",
   "g": "Trademark, IP And Member Data",
-  "q": "Pick the Standard cyber and E&O tier: $1M cyber + $1M E&O, about $1,500–$3,000 a year? Details in Document Center: 'UpKeep Cyber and E&O Tiers, Oct 17'. (no purchase or quote request until you OK it)",
+  "q": "Pick the Standard cyber and E&O tier: $1M cyber + $1M E&O, about $1,500–$3,000 a year (as low as about $1,000 if one bundled policy fits)? Legal and Research both checked it. Details in Document Center: 'UpKeep Cyber and E&O Tiers, Oct 17'. (no purchase or quote request until you OK it)",
   "u": "Soon",
-  "d": "The $1,500–$3,000 range checks out against published medians: cyber about $1,552 a year (Insureon, small businesses) plus E&O about $989 (Insureon, home inspectors, $1M/$1M), which comes to about $2,500. Light option: E&O $1M plus a $100k–$250k cyber add-on, about $700–$1,500. Higher option: $2M–$3M cyber plus $2M E&O, about $3,000–$6,000 (estimate). Cyber covers breach response, ransomware, business interruption and member data lawsuits. Funds transfer fraud is usually a smaller sublimit. E&O covers claims of a missed problem in an inspection. Damage in a member's home is general liability (about $545 a year), not E&O. A licensed Michigan broker should quote it."
+  "d": "Both checks agree. Separate policies: cyber $999–$1,552 a year (MoneyGeek, Insureon; six sample $1M quotes ran $1,050–$2,750) plus E&O about $989–$1,056. A bundled tech E&O plus cyber form is $807–$990, but it mainly covers lawsuits, not UpKeep's own breach costs. Light: E&O plus a small cyber add-on, about $700–$1,500 (cyber part $180–$513). Higher: $2M–$3M, about $3,000–$6,000 (estimate). Watch for: MFA and backup promises on the application, a $250k social-engineering sublimit, the retro date, and unencrypted devices. Damage in a member's home is general liability, not E&O. Michigan law (MCL 445.72) requires prompt notice to affected residents after a breach. A broker will ask about member record count and data types, revenue and headcount, MFA and backups, GL/BOP, and the liability cap in the member agreement."
  },
  {
   "id": "lq03",
