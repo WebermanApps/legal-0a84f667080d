@@ -1,14 +1,8 @@
 {
  "type": "Morning Report",
- "date": "2026-10-15",
- "posted": "2026-10-15T07:24:45+07:00",
- "updated": "2026-10-15T07:24:45+07:00",
- "late": true,
- "note": "Late: the 4:47 AM routine failed because usage ran out. Posted by hand.",
- "items": [
-  "Late today: the 4:47 AM run failed because usage ran out, so this report was posted by hand.",
-  "Last night: the Questions Center went live (51 open, 1 urgent) with 4 ready 20-card decks at the top. The Evening Report is retired and Routines moved to the bottom.",
-  "No answers from the decks or the Questions Center came in overnight, so nothing new was applied.",
-  "Still open: the Wellnest follow-up is overdue (needs Ding Ding's email and the IG screenshot), and the Smart Upkeep LLC filing still has no receipt."
- ]
+ "date": "2026-10-20",
+ "posted": "2026-10-20T12:45:00+07:00",
+ "updated": "2026-10-20T12:45:00+07:00",
+ "items": [],
+ "note": "Cleared per Max (Oct 20): morning reports now come only from Grok Bot and Swatch."
 }
